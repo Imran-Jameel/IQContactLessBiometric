@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let testVC = TestVC()
+
         
         
     }
@@ -23,6 +23,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        UINib(nibName: "YourNibName", bundle: Bundle(for: YourCocoaPodClass.self))
+        let testVC = TestVC(nibName: "TestVC", bundle: Bundle(for: TestVC.self))
+        self.present(testVC, animated: true)
     }
 
 }

@@ -7,10 +7,10 @@
 
 import Foundation
 
-class TestVC: UIViewController
+public class TestVC: UIViewController
 {
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
     }
     

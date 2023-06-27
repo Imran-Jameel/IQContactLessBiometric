@@ -32,13 +32,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'IssmContactlessBiometric/Classes/**/*'
   
-     s.resource_bundles = {
-     'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
-   }
+  #s.resource_bundles = {
+  #  'IssmContactlessBiometric' => ['Resources/*.xib']
+  #}
   
-   s.resource_bundles = {
-     'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
-   }
+ #   s.resource_bundles = {
+  #   'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
+  # }
+  
+   #s.resource_bundles = {
+    # 'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
