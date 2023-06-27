@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'IssmContactlessBiometric_Example' do
+  pod 'IssmContactlessBiometric', :path => '../'
+
+  target 'IssmContactlessBiometric_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
