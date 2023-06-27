@@ -10,8 +10,8 @@
 		0DD3A9FD769634B4D6B7AF77EBB7C378 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239806A779FAC3D99E2DC492A5E4F64 /* ReplaceMe.swift */; };
 		14D6DAA189D62BB489C7C85B6524AE4A /* IssmContactlessBiometric-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35575C911D31C07BB5EF0450C9C72752 /* IssmContactlessBiometric-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15853AC00C2C060E0BBA18898449284C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		15FABBD62A4AF806007AEBBD /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FABBD52A4AF806007AEBBD /* TestVC.swift */; };
-		15FABBDA2A4AF884007AEBBD /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FABBD92A4AF884007AEBBD /* TestVC.xib */; };
+		15FABBDF2A4B1427007AEBBD /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FABBDD2A4B1427007AEBBD /* TestVC.xib */; };
+		15FABBE02A4B1427007AEBBD /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FABBDE2A4B1427007AEBBD /* TestVC.swift */; };
 		32D2880C64609A291107676CA4A442D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3B373F8C21576D2FCC0679297607F449 /* Pods-IssmContactlessBiometric_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E309D84FF1861FD1A7AAB39704ECAE7A /* Pods-IssmContactlessBiometric_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59A59507FC59D59E6522DE2CCBB67C7E /* Pods-IssmContactlessBiometric_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE0B60F789E32F031258E2258989BAA /* Pods-IssmContactlessBiometric_Example-dummy.m */; };
@@ -40,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		023E30625E5566DA16D98AA128A4E6E3 /* Pods-IssmContactlessBiometric_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IssmContactlessBiometric_Tests-dummy.m"; sourceTree = "<group>"; };
-		15FABBD52A4AF806007AEBBD /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
-		15FABBD92A4AF884007AEBBD /* TestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		15FABBDD2A4B1427007AEBBD /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestVC.xib; path = IssmContactlessBiometric/Classes/TestVC.xib; sourceTree = "<group>"; };
+		15FABBDE2A4B1427007AEBBD /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestVC.swift; path = IssmContactlessBiometric/Classes/TestVC.swift; sourceTree = "<group>"; };
 		18AB07E9DA47C8A872492BFF4F0206AE /* Pods-IssmContactlessBiometric_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IssmContactlessBiometric_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28752ECD858390807EE4677FA1E53444 /* Pods-IssmContactlessBiometric_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IssmContactlessBiometric_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35575C911D31C07BB5EF0450C9C72752 /* IssmContactlessBiometric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IssmContactlessBiometric-umbrella.h"; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				5239806A779FAC3D99E2DC492A5E4F64 /* ReplaceMe.swift */,
-				15FABBD52A4AF806007AEBBD /* TestVC.swift */,
-				15FABBD92A4AF884007AEBBD /* TestVC.xib */,
+				15FABBDE2A4B1427007AEBBD /* TestVC.swift */,
+				15FABBDD2A4B1427007AEBBD /* TestVC.xib */,
 				C912913AF98A48C0F2D513738A2C6846 /* Pod */,
 				031201DEF0F47B1FFD145A60EBA3325E /* Support Files */,
 			);
@@ -356,7 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FABBDA2A4AF884007AEBBD /* TestVC.xib in Resources */,
+				15FABBDF2A4B1427007AEBBD /* TestVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C712AEDC0A1BF2F4715A0576354E078E /* IssmContactlessBiometric-dummy.m in Sources */,
-				15FABBD62A4AF806007AEBBD /* TestVC.swift in Sources */,
+				15FABBE02A4B1427007AEBBD /* TestVC.swift in Sources */,
 				0DD3A9FD769634B4D6B7AF77EBB7C378 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
