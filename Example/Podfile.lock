@@ -1,0 +1,16 @@
+PODS:
+  - IssmContactlessBiometric (0.1.0)
+
+DEPENDENCIES:
+  - IssmContactlessBiometric (from `../`)
+
+EXTERNAL SOURCES:
+  IssmContactlessBiometric:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IssmContactlessBiometric: a9a152972f193b877f82ce4f64ce1bf5c8ff6748
+
+PODFILE CHECKSUM: 123f074b616bec68e7aaee1449c1356a3abd308e
+
+COCOAPODS: 1.11.3

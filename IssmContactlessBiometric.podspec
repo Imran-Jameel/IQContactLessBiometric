@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IssmContactlessBiometric'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of IssmContactlessBiometric.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,17 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ImranBaloch/IssmContactlessBiometric.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'IssmContactlessBiometric/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
-  # }
+     s.resource_bundles = {
+     'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
+   }
+  
+   s.resource_bundles = {
+     'IssmContactlessBiometric' => ['IssmContactlessBiometric/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

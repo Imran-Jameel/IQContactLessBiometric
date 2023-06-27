@@ -1,0 +1,6 @@
+framework module Pods_IssmContactlessBiometric_Tests {
+  umbrella header "Pods-IssmContactlessBiometric_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

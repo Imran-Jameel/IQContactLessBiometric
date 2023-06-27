@@ -1,0 +1,6 @@
+framework module IssmContactlessBiometric {
+  umbrella header "IssmContactlessBiometric-umbrella.h"
+
+  export *
+  module * { export * }
+}
